@@ -6,11 +6,9 @@
 /*   By: jerocha- <jerocha-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 23:43:36 by jerocha-          #+#    #+#             */
-/*   Updated: 2026/04/07 23:50:01 by jerocha-         ###   ########.fr       */
+/*   Updated: 2026/04/08 14:37:56 by jerocha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_swap(int *a, int *b);
 
