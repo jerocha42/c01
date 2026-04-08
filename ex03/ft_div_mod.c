@@ -6,11 +6,9 @@
 /*   By: jerocha- <jerocha-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 23:53:34 by jerocha-          #+#    #+#             */
-/*   Updated: 2026/04/08 00:01:33 by jerocha-         ###   ########.fr       */
+/*   Updated: 2026/04/08 14:38:29 by jerocha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod);
 
