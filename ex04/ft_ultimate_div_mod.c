@@ -6,11 +6,9 @@
 /*   By: jerocha- <jerocha-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 00:03:17 by jerocha-          #+#    #+#             */
-/*   Updated: 2026/04/08 00:17:30 by jerocha-         ###   ########.fr       */
+/*   Updated: 2026/04/08 14:38:53 by jerocha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_div_mod(int *a, int *b);
 
