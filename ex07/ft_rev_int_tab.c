@@ -6,7 +6,7 @@
 /*   By: jerocha- <jerocha-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/08 14:12:43 by jerocha-          #+#    #+#             */
-/*   Updated: 2026/04/08 20:36:14 by jerocha-         ###   ########.fr       */
+/*   Updated: 2026/04/08 22:43:58 by jerocha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,28 +38,30 @@ void	ft_rev_int_tab(int *tab, int size)
 }
 
 /*
-** int	main(void)
+** void	print_int_array(int *tab, int size)
 ** {
-** 	int	array_size;
-** 	int	array_int[5];
-** 	int	*first_element_addr;
 ** 	int	i;
 ** 
-** 	array_size = 5;
-** 	array_int[0] = 1;
-** 	array_int[1] = 12;
-** 	array_int[2] = 123;
-** 	array_int[3] = 1234;
-** 	array_int[4] = 12345;
-** 	first_element_addr = &array_int[0];
-** 	ft_rev_int_tab(first_element_addr, array_size);
 ** 	i = 0;
-** 	while (i < array_size)
+** 	while (i < size)
 ** 	{
-** 		printf("%d, ", first_element_addr[i]);
+** 		printf("%d, ", tab[i]);
 ** 		i = i + 1;
 ** 	}
 ** 	printf("\n");
+** }
+** 
+** int	main(void)
+** {
+** 	int	array_size;
+** 	int	array_int[5] = {1, 12, 123, 1234, 12345};
+** 	int	*first_element_addr;
+** 
+** 	array_size = 5;
+** 	first_element_addr = &array_int[0];
+** 	print_int_array(first_element_addr, 5);
+** 	ft_rev_int_tab(first_element_addr, array_size);
+** 	print_int_array(first_element_addr, 5);
 ** 	return (0);
 ** }
 ** 
